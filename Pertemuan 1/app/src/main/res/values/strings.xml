@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Dwi Krisdiyanto</string>
+    <string name="praktikum_mobile_upnvj">Praktikum Mobile UPNVJ</string>
+    <string name="nama">Dwi Krisdiyanto</string>
+    <string name="nim">2110512018</string>
+    <string name="kelebihan">Kelebihan</string>
+    <string name="kelebihan1">Rasa ingin tahu tinggi</string>
+    <string name="kelebihan2">Mudah beradaptasi</string>
+    <string name="kelebihan3">Muda kerja sama dan komunikasi</string>
+    <string name="kekurangan">Kekurangan</string>
+    <string name="kekurangan1">Procrastinating</string>
+    <string name="kekurangan2">Tidak ingat waktu</string>
+    <string name="kekurangan3">Suka tidur</string>
+    <string name="bakgroundDesc">background</string>
+    <string name="profileDesc">Foto Profil</string>
+</resources>
