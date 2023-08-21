@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Latihan Splash Screen</string>
+    <string name="logo_gojek">Logo Gojek</string>
+    <string name="message">halo ini adalah tutorial splash screen</string>
+</resources>
