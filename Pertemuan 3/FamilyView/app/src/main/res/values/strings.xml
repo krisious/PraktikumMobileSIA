@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FamilyView</string>
+    <string name="title">Keluarga Suyanto </string>
+    <string name="subtitle">Profil Keluarga</string>
+    <string name="content_text">Keluarga kecil ini memiliki 4 anggota keluarga, sang ayah Suyanto, ibu Dian Marsanti dan kedua anaknya Dwi Krisdiyanto (sulung) dan Natalia Vinza Arzelia (bungsu). Foto di atas diambil saat keluarga ini sedang berlibur ke Yogyakarta, kampung halaman si ayah pada desember 2021.</string>
+    <string name="family_member">Anggota Keluarga</string>
+    <string name="father">Ayah</string>
+    <string name="father_name">Suyanto</string>
+    <string name="mother">Ibu</string>
+    <string name="mother_name">Dian Marsanti</string>
+    <string name="children">Anak</string>
+    <string name="children_name">Dwi Krisdiyanto\nNatalia Vinza Arzelia</string>
+    <string name="writer">penulis</string>
+    <string name="my_name">Dwi Krisdiyanto</string>
+    <string name="follow">Follow</string>
+    <string name="family_photo_desc">Foto Keluarga</string>
+    <string name="logo_backme_desc">Logo Backme</string>
+</resources>
