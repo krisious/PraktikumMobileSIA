@@ -50,7 +50,7 @@ public class CircleArea extends AppCompatActivity implements View.OnClickListene
             }
 
             if (!isEmptyFields) {
-                double area = 3.14 * Double.parseDouble(inputRadius);
+                double area = 3.14 * (Double.valueOf(inputRadius) * Double.valueOf(inputRadius));
                 tvResult.setText(String.valueOf(area));
             }
         }
