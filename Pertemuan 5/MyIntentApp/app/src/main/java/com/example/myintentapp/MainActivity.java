@@ -29,24 +29,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-        switch (view.getId()){
-            case R.id.btn_move_activity:
-                Intent moveIntent = new Intent(MainActivity.this, MoveActivity.class);
-                startActivity(moveIntent);
-                break;
-            case R.id.btn_move_activity_data:
-                break;
-            case R.id.btn_move_activity_data:
-                Intent moveWithDataIntent = new Intent(MainActivity.this,  MoveWithDataActivity.class);
-                moveWithDataIntent.putExtra(MoveWithDataActivity.EXTRA_NAME, "Dwi Krisidyanto");
-                moveWithDataIntent.putExtra(MoveWithDataActivity.EXTRA_AGE, 5);
-                startActivity(moveWithDataIntent);
-                break;
-            case R.id.btn_dial_number:
-                String phoneNumber = "081210841382";
-                Intent dialPhoneIntent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:"+phoneNumber));
-                startActivity(dialPhoneIntent);
-                break;
+        int id = view.getId();
+        if (id == R.id.btn_move_activity) {
+            Intent moveIntent = new Intent(MainActivity.this, MoveActivity.class);
+            startActivity(moveIntent);
+        } else if (id == R.id.btn_move_activity_data) {
+            Intent moveWithDataIntent = new Intent(MainActivity.this, MoveWithDataActivity.class);
+            moveWithDataIntent.putExtra(MoveWithDataActivity.EXTRA_NAME, "Dwi Krisidyanto");
+            moveWithDataIntent.putExtra(MoveWithDataActivity.EXTRA_AGE, 5);
+            startActivity(moveWithDataIntent);
+        } else if (id == R.id.btn_dial_number) {
+            String phoneNumber = "081210841382";
+            Intent dialPhoneIntent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + phoneNumber));
+            startActivity(dialPhoneIntent);
         }
     }
 }
