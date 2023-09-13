@@ -31,8 +31,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
         int id = view.getId();
-        if (id == R.id.btn_square){
-            Intent moveIntent = new Intent(MainActivity.this, );
+        if (id == R.id.btn_square) {
+            Intent squareIntent = new Intent(MainActivity.this, SquareArea.class);
+            startActivity(squareIntent);
+        } else if (id == R.id.btn_rectangle) {
+            Intent rectangleIntent = new Intent(MainActivity.this, RectangleArea.class);
+            startActivity(rectangleIntent);
+        } else if (id == R.id.btn_triangle) {
+            Intent triangleIntent = new Intent(MainActivity.this, TriangleArea.class);
+            startActivity(triangleIntent);
+        } else if (id == R.id.btn_circle) {
+            Intent circleIntent = new Intent(MainActivity.this, CircleArea.class);
+            startActivity(circleIntent);
         }
     }
 }
