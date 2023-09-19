@@ -8,6 +8,7 @@ public class Person implements Parcelable {
     private int age;
     private String email;
     private String city;
+
     public String getName() {
         return name;
     }

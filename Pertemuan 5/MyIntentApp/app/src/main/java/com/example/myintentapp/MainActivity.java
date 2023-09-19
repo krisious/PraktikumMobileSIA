@@ -79,7 +79,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             if (resultCode == MoveForResultActivity.RESULT_CODE) {
                 int selectedValue = data.getIntExtra(MoveForResultActivity.EXTRA_SELECTED_VALUE, 0);
                 tvResult.setText("Hasil : "+selectedValue);
-
             }
         }
     }
