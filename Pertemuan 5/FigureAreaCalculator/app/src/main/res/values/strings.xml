@@ -1,15 +1,21 @@
 <resources>
     <string name="app_name">FigureAreaCalculator</string>
+
     <string name="square_button">Hitung Luas Persegi</string>
-    <string name="rectangle_button">Hitung Luas Persegi Panjang</string>
-    <string name="triangle_button">Hitung Luas Segitiga</string>
-    <string name="circle_button">Hitung Luas Lingkaran</string>
     <string name="side">Sisi Persegi</string>
-    <string name="calculate">Hitung Luas</string>
-    <string name="result">Hasil</string>
+
+    <string name="rectangle_button">Hitung Luas Persegi Panjang</string>
     <string name="length">Panjang Persegi Panjang</string>
     <string name="width">Lebar Persegi Panjang</string>
+
+    <string name="triangle_button">Hitung Luas Segitiga</string>
     <string name="base">Alas Segitiga</string>
     <string name="heigth">Tinggi Segitiga</string>
+
+    <string name="circle_button">Hitung Luas Lingkaran</string>
     <string name="radius">Jari - Jari Lingkaran</string>
+
+    <string name="calculate">Hitung Luas</string>
+    <string name="result">Hasil</string>
+
 </resources>
