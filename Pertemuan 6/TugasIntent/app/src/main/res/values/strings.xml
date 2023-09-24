@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TugasIntent</string>
+    <string name="nama">Dwi Krisdiyanto</string>
+    <string name="btn_profile">Profile</string>
+    <string name="nimLabel">NIM</string>
+    <string name="nimValue">2110512018</string>
+    <string name="addressLabel">Alamat</string>
+    <string name="addressValue">Perumahan Graha Persada Sentose\nBlok C5 No20</string>
+    <string name="hobbyLabel">Hobi</string>
+    <string name="hobbyValue">Membaca\nFotografi\nMendengarkan Musik</string>
+    <string name="dreamLabel">Cita-cita</string>
+    <string name="dreamValue">Project Manager\nSystem Analyst</string>
+</resources>
