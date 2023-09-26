@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="title">Profil Saya </string>
+    <string name="title_schedule">Jadwal Kuliah Saya di Semester 5</string>
+    <string name="content_text">Saya adalah seorang mahasiswa yang bersemangat dan berkomitmen untuk memulai karier sebagai project manager. Saya memiliki latar belakang dalam program studi S1 Ssitem Infromasi dari Universitas Pembangunan Nasional Veteran Jakarta dan selama masa kuliah saya mendapatkan pemahaman mendalam tentang prinsip-prinsip menjalankan proyek sistem informasi.</string>
+    <string name="detail">Detail</string>
+    <string name="name_label">Nama</string>
+    <string name="name_value">Dwi Krisdiyanto</string>
+    <string name="nim_label">NIM</string>
+    <string name="nim_value">2110512018</string>
+    <string name="prodi_label">Prodi</string>
+    <string name="prodi_value">S1 Sistem Informasi</string>
+    <string name="writer">Penulis</string>
+    <string name="my_name">Dwi Krisdiyanto</string>
+    <string name="btn_schedule">DETAIL JADWAL MATA KULIAH SEMESTER 5</string>
+
+    <string name="monday">Senin</string>
+    <string name="tuesday">Selasa</string>
+    <string name="wednesday">Rabu</string>
+    <string name="thursday">Kamis</string>
+
+    <string name="monday_schedule">Pemrograman Mobile\nInternet of Things\nKnowledge Management</string>
+    <string name="tuesday_schedule">Praktikum Pemrograman Mobile\nBig Data\nPraktikum Big Data</string>
+    <string name="wednesday_schedule">Jaringan Komputer\nManajemen Proyek Sistem inforamsi</string>
+    <string name="thursday_schedule">Kecerdasan Buatan\nSistem Multimedia</string>
+
+</resources>
