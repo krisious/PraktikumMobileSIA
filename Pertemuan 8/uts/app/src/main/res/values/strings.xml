@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">uts</string>
+    
+    <string name="favourite_food_title">Makanan Favorit Saya</string>
+    <string name="favourite_food_description">Gudeg adalah makanan tradisional dari Indonesia, khususnya Yogyakarta dan Jawa Tengah. Makanan ini terbuat dari nangka muda yang dimasak dengan santan dan gula merah serta bumbu-bumbu lainnya. Gudeg memiliki rasa manis, gurih, dan sedikit pedas, sering disajikan dengan nasi, ayam, telur, dan sambal. Saya suka dengan gudeg karena cita rasanya yang kaya dan juga memiliki kenangan keluarga dengan gudeg.</string>
+    <string name="food_name_label">Nama Makanan</string>
+    <string name="food_name_value">Gudeg</string>
+    <string name="food_origin_label">Asal Makanan</string>
+    <string name="food_origin_value">Yogyakarta</string>
+    <string name="food_price_label">Harga Makanan</string>
+    <string name="food_price_value">Rp20.000</string>
+    <string name="tour_button">Tujuan Destinasi Wisata Impian</string>
+
+    <string name="dream_tour_title">Destinasi Wisata Impian</string>
+    <string name="dream_tour_description">Destinasi wisata Salt Flats, atau Salar de Uyuni, terletak di Bolivia. Ini adalah padang garam terbesar di dunia yang membentang seluas ribuan kilometer persegi. Ketika musim hujan, permukaan garam ini menjadi seperti cermin raksasa, menciptakan efek visual yang luar biasa. Wisatawan sering mengunjungi Salt Flats untuk mengambil foto-foto unik dan menikmati panorama yang menakjubkan. Selain itu, di sekitar Salar de Uyuni terdapat berbagai atraksi alam lainnya, seperti pulau-pulau garam, geiser, dan danau aliran merah. Ini adalah salah satu destinasi wisata paling terkenal di Bolivia dan menjadi daya tarik utama bagi penggemar fotografi dan petualangan.</string>
+    <string name="tour_name_label">Nama Destinasi</string>
+    <string name="tour_name_value">Salar de Uyuni</string>
+    <string name="tour_address_label">Letak Destinasi</string>
+    <string name="tour_address_value">Potosí, Bolivia</string>
+    <string name="tour_unique_label">Keunikan Destinasi</string>
+    <string name="tour_unique_value">"Cermin Alami": Selama musim hujan, Salar de Uyuni tergenang air hujan tipis, menciptakan efek cermin alami yang memantulkan langit biru di permukaannya. Ini menciptakan pemandangan yang spektakuler dan unik di mana langit dan tanah tampak bersatu.</string>
+    <string name="back_button">Kembali</string>
+
+    <string name="writer">Penulis</string>
+    <string name="my_name">Dwi Krisdiyanto</string>
+
+</resources>

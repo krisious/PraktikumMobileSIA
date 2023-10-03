@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/keluarga" />
+</FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_saya"
+        android:textSize="17sp"
+        android:paddingLeft="@dimen/horizontal" 
+        android:paddingTop="@dimen/vertical" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/vertical"
+        android:text="@string/tentang_saya"
+        android:paddingLeft="@dimen/horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/horizontal"
+        android:text="Detail \nNama : Muhammad Farhan Sukmana
+            \nNIM   :2110511056
+            \nProdi : S-1 Informatika" />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/horizontal"
+        android:layout_marginRight="@dimen/horizontal"
+        android:layout_marginBottom="@dimen/vertical" >
+
+
+            <ImageView
+                android:id="@+id/gambar_kecil"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:src="@drawable/orang" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/gambar_kecil"
+            android:layout_height="wrap_content"
+            android:text="Muhammad Farhan Sukmana" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_jadwal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/horizontal"
+        android:layout_marginRight="@dimen/horizontal"
+        android:text="DETAIL JADWAL MATA KULIAH SEMESTER 5" />
+
+
+</LinearLayout>
