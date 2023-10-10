@@ -17,6 +17,10 @@ public class FavouriteFood extends AppCompatActivity implements View.OnClickList
 
         btnTour = (Button)findViewById(R.id.btn_tour);
         btnTour.setOnClickListener(this);
+
+        if(getSupportActionBar() != null){
+            getSupportActionBar().setTitle("Makanan Favorit Saya");
+        }
     }
 
     @Override

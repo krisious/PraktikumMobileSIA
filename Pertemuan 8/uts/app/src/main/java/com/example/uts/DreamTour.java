@@ -17,6 +17,10 @@ public class DreamTour extends AppCompatActivity implements View.OnClickListener
 
         btnBack = (Button)findViewById(R.id.btn_back);
         btnBack.setOnClickListener(this);
+
+        if(getSupportActionBar() != null){
+            getSupportActionBar().setTitle("Destinasi Wisata Impian");
+        }
     }
 
     @Override
