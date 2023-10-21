@@ -17,6 +17,6 @@
         android:id="@+id/btn_detail_category"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Kategory Lifestyle"/>
+        android:text="Praktikum Pemrograman Mobile"/>
 
 </LinearLayout>
