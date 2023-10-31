@@ -1,0 +1,33 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color teal_700
+color white
+drawable ic_1
+drawable ic_2
+drawable ic_3
+drawable ic_4
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable ic_menu
+id button
+id imageMenu
+id imageView
+id layoutFragment
+id layoutHeader
+id menuFragment1
+id menuFragment2
+id menuFragment3
+id menuFragment4
+id textTitle
+id textView
+layout activity_main
+layout fragment_layout
+menu menu_fragment
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.MyFragment
+style Theme.MyFragment
+xml backup_rules
+xml data_extraction_rules
